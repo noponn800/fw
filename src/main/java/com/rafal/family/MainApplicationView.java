@@ -53,6 +53,9 @@ public class MainApplicationView extends VerticalLayout {
         add(buildApplicationLayout());
     }
 
+
+    
+
     public HorizontalLayout buildApplicationLayout() {
 
         // Define fields
