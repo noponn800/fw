@@ -15,6 +15,7 @@ public class ApplicationUser {
     private Long id;
     private String name;
     private String surname;
+    private Integer points;
 
     @Override
     public boolean equals(Object o) {
@@ -112,4 +113,11 @@ public class ApplicationUser {
         groups.add(g);
     }
 
+    public Integer getPoints() {
+        return points;
+    }
+
+    public void setPoints(Integer points) {
+        this.points = points;
+    }
 }

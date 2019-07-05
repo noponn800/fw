@@ -10,6 +10,7 @@ public class ApplicationTask {
     private String title;
     private String body;
     private int points;
+    private boolean complete;
     @OneToOne
     private ApplicationUser founder;
     @OneToOne
